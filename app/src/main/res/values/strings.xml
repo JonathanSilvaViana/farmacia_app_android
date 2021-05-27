@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Farmácia app</string>
     <string name="products">products</string>
+    <string name="title_activity_main_farmacia">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Cart</string>
+    <string name="title_notifications">Account</string>
+    <string name="Login">Login</string>
+    <string name="support">Support</string>
+    <string name="update">Update</string>
 </resources>

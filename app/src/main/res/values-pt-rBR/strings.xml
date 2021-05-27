@@ -2,4 +2,11 @@
 <resources>
     <string name="app_name">Farmácia app</string>
     <string name="products">Produtos</string>
+    <string name="title_home">Ofertas</string>
+    <string name="title_dashboard">Carrinho</string>
+    <string name="title_notifications">Contas</string>
+    <string name="title_activity_main_farmacia">Home</string>
+    <string name="Login">Entrar</string>
+    <string name="support">Chat</string>
+    <string name="update">Atualizar</string>
 </resources>
