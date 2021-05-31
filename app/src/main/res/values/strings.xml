@@ -8,4 +8,8 @@
     <string name="Login">Login</string>
     <string name="support">Support</string>
     <string name="update">Update</string>
+    <string name="nowhatsapp">WhatsApp\'s not installed in your phone</string>
+    <string name="click">click</string>
+    <string name="buy">buy</string>
+    <string name="product">product</string>
 </resources>

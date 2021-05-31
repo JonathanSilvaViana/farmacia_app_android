@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".VisulizarProdutoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/caixademedicamento" />
+
+    <TextView
+        android:id="@+id/tituloProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textFontWeight="200"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/comprar_bt"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buy"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_baseline_shopping_cart_24"
+        ></Button>
+
+    </LinearLayout>
+
+    </ScrollView>

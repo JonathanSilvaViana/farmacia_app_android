@@ -8,15 +8,6 @@
     android:background="@color/white"
     tools:context=".OfertaActivity">
 
-  <!--  <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-
-
-    </LinearLayout>
-    -->
 
   <androidx.constraintlayout.widget.Guideline
       android:id="@+id/guideline_left_vertical"
@@ -25,18 +16,18 @@
       android:orientation="vertical"
       app:layout_constraintGuide_percent="0.05" />
 
-  <Button android:id="@+id/leftButton"
+  <Button android:id="@+id/suporte_bt"
       android:layout_width="wrap_content"
       android:textColor="@color/white"
       android:layout_height="wrap_content"
       android:layout_marginTop="20dp"
       android:text="@string/support"
       android:drawableLeft="@drawable/chat"
-      app:layout_constraintEnd_toStartOf="@+id/rightButton"
+      app:layout_constraintEnd_toStartOf="@+id/atualizar_bt"
       app:layout_constraintStart_toEndOf="@id/guideline_left_vertical"
       app:layout_constraintTop_toTopOf="parent" />
 
-  <Button android:id="@+id/rightButton"
+  <Button android:id="@+id/atualizar_bt"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:textColor="@color/white"
@@ -45,7 +36,7 @@
       android:drawableRight="@drawable/update"
       android:text="@string/update"
       app:layout_constraintEnd_toStartOf="@+id/guideline_right_vertical"
-      app:layout_constraintStart_toEndOf="@+id/leftButton"
+      app:layout_constraintStart_toEndOf="@+id/suporte_bt"
       app:layout_constraintTop_toTopOf="parent" />
 
   <androidx.constraintlayout.widget.Guideline
@@ -56,12 +47,19 @@
       android:orientation="vertical"
       app:layout_constraintGuide_percent="0.95" />
 
-  <WebView
-      android:layout_marginTop="70dp"
-      android:layout_width="match_parent"
-      android:id="@+id/navegacao"
-      android:layout_height="match_parent"
-      android:background="@color/black" />
+  <!--enviar um include com recyclerview aqui -->
 
+  <Button android:id="@+id/xa"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/white"
+      android:layout_marginTop="20dp"
+      android:visibility="gone"
+      android:layout_marginStart="2dp"
+      android:drawableRight="@drawable/update"
+      android:text="@string/click"
+      app:layout_constraintEnd_toStartOf="@+id/guideline_right_vertical"
+      app:layout_constraintStart_toEndOf="@+id/suporte_bt"
+      app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

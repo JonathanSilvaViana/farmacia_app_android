@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FarmáciaApp">
+        <activity android:name=".VisulizarProdutoActivity"
+            android:parentActivityName=".OfertaActivity"
+            ></activity>
         <activity
             android:name=".OfertaActivity"
-            android:label="@string/title_home"
-            ></activity>
+            android:label="@string/title_home" />
         <activity
             android:name=".MainFarmaciaActivity"
             android:label="@string/title_activity_main_farmacia" />

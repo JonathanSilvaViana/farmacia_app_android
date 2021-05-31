@@ -9,4 +9,8 @@
     <string name="Login">Entrar</string>
     <string name="support">Chat</string>
     <string name="update">Atualizar</string>
+    <string name="nowhatsapp">WhatsApp não está presente em seu dispositivo</string>
+    <string name="click">clique</string>
+    <string name="buy">Compre</string>
+    <string name="product">Produto</string>
 </resources>
